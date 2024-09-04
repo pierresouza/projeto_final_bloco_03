@@ -15,9 +15,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/categorias" element={<ListarCategoria />} />
-            <Route path="/cadastrarCategoria" element={<FormCategoria />} />
-            <Route path="/deletarCategoria/:id" element={<DeletarCategoria />} />
-            <Route path="/editarCategoria/:id" element={<DeletarCategoria />} />
+            <Route path="/cadastrarCategorias" element={<FormCategoria />} />
+            <Route path="/deletarCategorias/:id" element={<DeletarCategoria />} />
+            <Route path="/editarCategorias/:id" element={<DeletarCategoria />} />
           </Routes>
         </div>
         <Footer />

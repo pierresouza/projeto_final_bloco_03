@@ -8,10 +8,10 @@ function Navbar() {
           Farmaconde
         </Link>
         <div className="flex gap-4">
-          <Link to="/categorias" className="hover:underline">
+          <Link to="/categorias" className="hover:underline hover:scale-105 transition ease-in-out">
             Listar Categorias
           </Link>
-          <Link to="/cadastrarCategoria" className="hover:underline">
+          <Link to="/cadastrarCategorias" className="hover:underline hover:scale-105 transition ease-in-out">
             Cadastrar Categorias
           </Link>
         </div>
