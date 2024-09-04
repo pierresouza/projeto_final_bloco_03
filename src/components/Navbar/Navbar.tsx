@@ -15,7 +15,7 @@ function Navbar() {
             Cadastrar Categorias
           </Link>
           <Link to="/cadastrar-categorias/:id" className="hover:underline">
-            Cadastrar Categorias
+            Atualizar Categorias
           </Link>
           <Link to="/deletar-categorias" className="hover:underline">
             Deletar CAtegorias
