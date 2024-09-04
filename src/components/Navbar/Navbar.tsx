@@ -18,7 +18,7 @@ function Navbar() {
             Atualizar Categorias
           </Link>
           <Link to="/deletar-categorias" className="hover:underline">
-            Deletar CAtegorias
+            Deletar Categorias
           </Link>
         </div>
       </div>
